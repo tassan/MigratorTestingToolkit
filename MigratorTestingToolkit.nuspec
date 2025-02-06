@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MigratorTestingToolkit</id>
+    <version>1.0.0</version>
+    <authors>Flávio Tassan dos Santos Filho</authors>
+
+    <title>Migrator Testing Toolkit</title>
+    <description>FluentMigrator test utilities for database schema validation in unit tests.</description>
+    <summary>Provides test helpers and assertions for FluentMigrator migrations.</summary>
+    <tags>FluentMigrator Testing Migrations Database SQLite MSTest</tags>
+
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/tassan/MigratorTestingToolkit</projectUrl>
+    <repository type="git" url="https://github.com/tassan/MigratorTestingToolkit.git"/>
+<!--    <iconUrl>https://raw.githubusercontent.com/your-repository/main/logo.png</iconUrl>-->
+
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Data.Sqlite" version="8.0.0" />
+        <dependency id="FluentMigrator.Runner" version="3.3.2" />
+        <dependency id="Microsoft.VisualStudio.TestTools.UnitTesting" version="3.0.0" />
+      </group>
+    </dependencies>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Initial release of MigratorTestingToolkit.</releaseNotes>
+    <copyright>Copyright © 2025 Flávio Tassan dos Santos Filho</copyright>
+  </metadata>
+
+  <files>
+    <file src="bin/Release/netstandard2.0/MigratorTestingToolkit.dll" target="lib/netstandard2.0/" />
+    <file src="README.md" target="docs/" />
+  </files>
+</package>
+
