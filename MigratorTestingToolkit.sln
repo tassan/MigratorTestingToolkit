@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratorTestingToolkit", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7C323837-101F-41C8-9933-8157F6FACB38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratorTestingToolkit.Unit", "tests\MigratorTestingToolkit.Unit\MigratorTestingToolkit.Unit.csproj", "{C2719AF6-68B8-4926-9644-1C97723C3552}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratorTestingToolkit.Tests", "tests\MigratorTestingToolkit.Tests\MigratorTestingToolkit.Tests.csproj", "{C2719AF6-68B8-4926-9644-1C97723C3552}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
