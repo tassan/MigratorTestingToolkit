@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5BCD883D-9CD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratorTestingToolkit", "src\MigratorTestingToolkit\MigratorTestingToolkit.csproj", "{E75F6FC8-40CE-437A-904C-57A7D6765B3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7C323837-101F-41C8-9933-8157F6FACB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratorTestingToolkit.Unit", "tests\MigratorTestingToolkit.Unit\MigratorTestingToolkit.Unit.csproj", "{C2719AF6-68B8-4926-9644-1C97723C3552}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{E75F6FC8-40CE-437A-904C-57A7D6765B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E75F6FC8-40CE-437A-904C-57A7D6765B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E75F6FC8-40CE-437A-904C-57A7D6765B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2719AF6-68B8-4926-9644-1C97723C3552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2719AF6-68B8-4926-9644-1C97723C3552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2719AF6-68B8-4926-9644-1C97723C3552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2719AF6-68B8-4926-9644-1C97723C3552}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E75F6FC8-40CE-437A-904C-57A7D6765B3D} = {5BCD883D-9CD5-45A5-9D95-2BC8C777FBAE}
+		{C2719AF6-68B8-4926-9644-1C97723C3552} = {7C323837-101F-41C8-9933-8157F6FACB38}
 	EndGlobalSection
 EndGlobal
